@@ -17,3 +17,8 @@ README.html
 *.iml
 .DS_Store
 logs
+node_modules
+bower_components
+*/node_modules
+*/bower_components
+
