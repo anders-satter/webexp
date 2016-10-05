@@ -1,0 +1,3 @@
+function useTheCodeFormatterIsTheShit () {
+  return '';
+}

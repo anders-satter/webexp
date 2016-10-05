@@ -26,6 +26,8 @@ const errorTestReducer = (state={}, action) => {
 
 }
 
+//this is the best way to perform applyMiddleware
+//I don't know what it is possible to
 const combReducers = combineReducers({
   user: userReducer,
   tweets: tweetsReducer,
@@ -43,7 +45,6 @@ const reducer = function(state, action){
   }
   return state;
 }
-
 //==============================================================
 // 2. We create the middleware with this pattern...
 const loggerMiddleware = (store) => (next) => (action) => {
