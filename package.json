@@ -42,7 +42,7 @@
     "babelify": "^7.2.0",
     "bootstrap-loader": "^1.1.6",
     "bootstrap-sass": "^3.3.7",
-    "browserify": "^13",
+    "browserify": "^14.5.0",
     "css-loader": "^0.25.0",
     "es5-shim": "4.5.9",
     "html5shiv": "3.7.3",
